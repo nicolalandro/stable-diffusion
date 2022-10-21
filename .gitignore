@@ -4,3 +4,5 @@ latent_diffusion.egg-info
 models/ldm/stablediffusion
 models/ldm/stable-diffusion-v1
 src
+*.ckpt
+*.part
