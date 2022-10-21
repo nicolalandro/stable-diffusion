@@ -1,0 +1,5 @@
+__pycache__
+outputs
+latent_diffusion.egg-info
+models/ldm/stablediffusion
+models/ldm/stable-diffusion-v1
