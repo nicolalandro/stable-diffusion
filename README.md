@@ -23,7 +23,7 @@ PYTORCH_CUDA_ALLOC_CONF="max_split_size_mb:25" CUDA_VISIBLE_DEVICES="1" PROTOCOL
 ```
 wget -O models/ldm/inpainting_big/last.ckpt https://heibox.uni-heidelberg.de/f/4d9ac7ea40c64582b7c9/?dl=1
 
-CUDA_VISIBLE_DEVICES="1" PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python python scripts/inpaint.py --indir assets/stable-samples/inpainting/ --outdir outputs/inpaint
+CUDA_VISIBLE_DEVICES="1" PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python python scripts/inpaint.py --indir assets/stable-samples/inpainting/ --outdir outputs/inpaint --steps 100
 ```
 
 
